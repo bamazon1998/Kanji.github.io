@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Kanji - Pomodoro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Alata&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="style_c.css"> 
+       
+    </head>
+
+     <body>
+        <div class="container">
+            <h1 id="count">45</h1>   
+        </div>
+        <script type="text/javascript">
+         var counter = 45;
+
+                setInterval(function(){
+                    counter--;
+                    if(counter >= 0){
+                        id = document.getElementById("count");
+                        id.innerHTML = counter;
+                    }
+                    if (counter == 0){
+                        id.innerHTML = "COMPLETE";
+                    }
+                }, 10000);
+        </script>
+    </body>
+</html>

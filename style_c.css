@@ -1,0 +1,18 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Alata', sans-serif;
+    background-color: #e6bd8edc;
+}
+
+h1 {
+    font-family: 'Alata', sans-serif;
+    font-size: 15em;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
