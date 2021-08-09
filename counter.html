@@ -10,22 +10,19 @@
     </head>
 
      <body>
-        <div class="container">
-            <h1 id="count">45</h1>   
-        </div>
-        <script type="text/javascript">
-         var counter = 45;
-
-                setInterval(function(){
-                    counter--;
-                    if(counter >= 0){
-                        id = document.getElementById("count");
-                        id.innerHTML = counter;
-                    }
-                    if (counter == 0){
-                        id.innerHTML = "COMPLETE";
-                    }
-                }, 10000);
-        </script>
+        <section class="countdown-container">      
+            <div class="minutes-container">
+              <div class="minutes">44</div>
+              <div class="minutes-label">minutes</div>
+            </div>
+            
+            <div class="seconds-container">
+              <div class="seconds">59</div>
+              <div class="seconds-label">seconds</div>
+            </div>
+            <button class="empezar">Empezar</button>
+            <button class="refresh">Reiniciar</button>
+          </section>  
     </body>
+    <script src="counter.js"></script>
 </html>
