@@ -5,14 +5,89 @@
     background-color: #e6bd8edc;
 }
 
-h1 {
-    font-family: 'Alata', sans-serif;
-    font-size: 15em;
+
+.countdown-container {
+
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-80%);
+    text-align: center;
+    color: black;
 }
 
-.container {
+.minutes-container{
+
+    font-size: 2rem;
+    margin: 0;
+    position: absolute;
+    top: -60%;
+    left: 41.3%;
+    -ms-transform: translate(-40%, 170%);
+    transform: translate(-40%, 170%);
+
+}
+
+.seconds-container{
+
+    font-size: 2rem;
+    margin: 0;
+    position: absolute;
+    top: -60%;
+    left: 57%;
+    -ms-transform: translate(-40%, 170%);
+    transform: translate(-40%, 170%);
+
+}
+
+button { 
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px; 
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #aa7f4d;
+    background: transparent;
+    color: black;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden; 
+    transform: translateY(-50%);
+    font-size: 17px;
+}
+
+.init-button {
+
+    margin: 0;
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    left: 50%;
+    -ms-transform: translate(-50%, 170%);
+    transform: translate(-50%, 170%);
+
 }
+
+span{
+    background-color: #a77134e5;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+
+
+}
+
+button:hover span{
+    width: 100%;
+
+ }
+ button:hover {
+
+    border: none;
+ }
