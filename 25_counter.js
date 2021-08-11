@@ -37,7 +37,7 @@ const displayTimeLeft =(seconds)=> {
 }
 
 button2.addEventListener('click',()=>{
-    countDownClock(45,'minutes');
+    countDownClock(25,'minutes');
 });
 
 button.addEventListener('click',()=>{
