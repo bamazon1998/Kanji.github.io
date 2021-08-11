@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="45.4" viewBox="0 0 64 45.4">
+  <defs>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="64" height="45.4"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <rect width="64" height="45.4" fill="rgba(255,255,255,0)"/>
+    <text id="Kanji" transform="translate(1 31)" fill="#0d0d0d" font-size="23" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Kanji</tspan></text>
+  </g>
+</svg>

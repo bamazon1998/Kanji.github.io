@@ -6,9 +6,11 @@
 }
 
 body{
-    background-image: linear-gradient(120deg,#e6bd8edc, #fda085);
+    background-color: #c79862dc;
     color: white; 
-    font-family: 'Alata', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
     min-height: 100vh;
 }
 

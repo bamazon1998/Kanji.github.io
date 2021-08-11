@@ -7,45 +7,44 @@
     background-color: #e6bd8edc;
 }
 
-
-.countdown-container {
-
+.content {
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 50%;
     transform: translateY(-80%);
     text-align: center;
     color: black;
+
+
 }
 
-.minutes-container{
+.content h1 { 
+    font-size: 100px;
+    margin-top: 80px;
+    font-weight: bolder;
 
-    font-size: 2rem;
+}
+
+.content p { 
+    font-size: 20px;
+    margin: 20px auto;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.b_button {
+
     margin: 0;
     position: absolute;
-    top: -60%;
-    left: 41.3%;
-    -ms-transform: translate(-40%, 170%);
-    transform: translate(-40%, 170%);
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -20%);
+    transform: translate(-50%, -20%);
 
 }
-
-.seconds-container{
-
-    font-size: 2rem;
-    margin: 0;
-    position: absolute;
-    top: -60%;
-    left: 57%;
-    -ms-transform: translate(-40%, 170%);
-    transform: translate(-40%, 170%);
-
-}
-
 button { 
-
-    width: 200px;
-    padding: 15px 0;
+    width: 220px;
+    padding: 45px 0;
     text-align: center;
     margin: 20px 10px; 
     border-radius: 25px;
@@ -57,17 +56,7 @@ button {
     position:relative;
     overflow:hidden; 
     transform: translateY(-50%);
-    font-size: 17px;
-}
-
-.init-button {
-
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, 170%);
-    transform: translate(-50%, 170%);
+    font-size: 20px;
 
 }
 

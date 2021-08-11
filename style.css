@@ -1,7 +1,9 @@
 *{
     margin: 0; 
     padding: 0; 
-    font-family: 'Alata', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
     background-color: #e6bd8edc;
 }
 
