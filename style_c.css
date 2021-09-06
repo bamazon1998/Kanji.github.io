@@ -4,7 +4,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-style: normal;
-    background-color: #e6bd8edc;
+    background-color: #C9B1D5;
 }
 
 
@@ -50,7 +50,7 @@ button {
     margin: 20px 10px; 
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #aa7f4d;
+    border: 2px solid #C9B1D5;
     background: transparent;
     color: black;
     cursor:pointer;
@@ -72,7 +72,7 @@ button {
 }
 
 span{
-    background-color: #a77134e5;
+    background-color: #9c50c2;
     height: 100%;
     width: 0;
     border-radius: 25px;
